@@ -18,9 +18,18 @@ I used trade balance files from the census. Each report contained trade balance 
 
 ### Instructions 
 
-##### How to add a R Script as a data source to Power BI
+##### How to setup R and use R to create a custom visualization
+Click [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/) to get instructions on how to set up your environment.
 
-##### How to use R to create a custom visualization
+##### How to add a R Script as a data source to Power BI
+1.  Create and test your script using a R IDE (I recommend R Studio)
+2.  Make sure that the data sources that you want to import are made into a dataframe in your R Script
+3.  Launch Power BI Desktop
+4.  Click "Get Data" > More > Other > "R Script" 
+5.  Click the "Connect" button on the lower right
+6.  Go to R Studio (or whatever IDE you are using) and copy your R Script
+7.  Paste your R script in the text box
+8.  Click the "Ok" button
 
 
 ### Notes
