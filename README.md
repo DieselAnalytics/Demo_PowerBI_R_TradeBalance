@@ -15,8 +15,9 @@ I included a copy of the *.pbix file that was used in the presentation. The name
 ##### Data Sources
 I used trade balance files from the census. Each report contained trade balance data for the given year at the country level for the years from 2000 to 2014. The files are located in the "Data" folder.
 
+### Instructions on How to Recreate the Demo 
 
-### Instructions 
+### General Instructions 
 
 ##### How to setup R and use R to create a custom visualization
 Click [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/) to get instructions on how to set up your environment.
