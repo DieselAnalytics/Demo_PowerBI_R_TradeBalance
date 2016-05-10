@@ -1,5 +1,6 @@
 # Power BI and R Demo (Using R and Power BI to Analyze the United States Trade Balance with Other Countries)
 
+
 ## Abstract
 Power BI is a self-service business intelligence tool that is gaining popularity. Microsoft added the ability to use R scripts as a data source and the ability to use R scripts to create custom visualizations in late 2015. In this repo I have an example of using R in Power BI both as a data source and as a way to create a custom visualization.
 
@@ -16,6 +17,7 @@ I included a copy of the *.pbix file that was used in the presentation. The name
 ##### Data Sources
 I used trade balance files from the census.gov. Each report contained trade balance data for the given year at the country level for the time period between 2000 and 2014. The files are located in the "Data" folder.
 
+
 ## Extra information
 
 #### R
@@ -27,7 +29,17 @@ I used trade balance files from the census.gov. Each report contained trade bala
 - Download the "chicklet slicer" and "scroller" custom visualizations for Power BI. Those visualizations can be found at [here](https://app.powerbi.com/visuals/).
 
 #### Dashboard Explanation
-
+- The dashboard gives a snap shot of what's going on in a given year with the trade balance.
+- The dashboard's title is dynamic and the trade balance value and the number of countries included changes based on the the time period selected.
+- The "Top 5 Most Impactful Countries" chart shows the country that had the most impact whether positive or negative
+- "The "Countries with the Biggest Yearly Changes" chart shows the top 5 countries that had the 5 biggest absolute change from the previous year
+- The "scroller" on the bottom of the screen displays a list of the countries in alphabetical order with their US trade balance for the time period selected.
+- The boxplot chart shows a boxplot of trade balances by trade status category. Because of the big variance of trade balances I used the log10 of the absolute trade balance value (tongue twister!!! Lol). So if country A has a trade balance of 100 and country B has a trade balance of -100 both would converted value would be 2. The trade status categories were determine as follows:
+  - Bad = The country has no imports or exports, the ratio exports/imports is less than 0.9, or the country has no exports but has imports
+  - Ok = The country's exports/imports ratio is between 0.9 and 1.1
+  - Good =  The country has exports but no imports or the country's exports/imports ratio is between 1.1 and 2
+  - Great = The country's exports/imports ratio is greater then 2
+The contribution of the trade balance for each category is shown on top of the boxplot for that category.
 
 ## Considerations
-Many of the R features are in preview. I was told by personnel at Microsoft in April 2016 that the all of the R features that are currently in Power BI should be in GA soon. I was also told that they will provide a iist of packages that will work on PowerBI.com.
+Many of the R features in Power BI are in preview and some of the features do not work on PowerBI.com. I was told by personnel at Microsoft in April 2016 that the all of the R features that are currently in Power BI should be in GA soon. I was also told that they will provide a iist of packages that will work on PowerBI.com.
