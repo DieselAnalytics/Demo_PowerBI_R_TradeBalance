@@ -39,7 +39,7 @@ I used trade balance files from the census.gov. Each report contained trade bala
   - Ok = The country's exports/imports ratio is between 0.9 and 1.1
   - Good =  The country has exports but no imports or the country's exports/imports ratio is between 1.1 and 2
   - Great = The country's exports/imports ratio is greater then 2
-The contribution of the trade balance for each category is shown on top of the boxplot for that category.
+  - The contribution of the trade balance for each category is shown on top of the boxplot for that category.
 
 ## Considerations
 Many of the R features in Power BI are in preview and some of the features do not work on PowerBI.com. I was told by personnel at Microsoft in April 2016 that the all of the R features that are currently in Power BI should be in GA soon. I was also told that they will provide a iist of packages that will work on PowerBI.com.
