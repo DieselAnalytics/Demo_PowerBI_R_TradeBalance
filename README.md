@@ -20,11 +20,11 @@ I used trade balance files from the census.gov. Each report contained trade bala
 
 ##R
 - Make sure you have stringr, dplyr, ggplot2, lubridate, and tidyr packages loaded in your environment
-- Make sure you have a nice IDE to play with the R script of you want to test it for yourself. I recommend you use R Studio.
+- Make sure you have a nice IDE to play with the R script if you want to test it for yourself. I recommend you use R Studio.
 
 # Power BI
-- Make sure you go through the instruction provided to setup Power BI to be able to use R as a data source and R to create custom visualizations. Information on how to do so can be found [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/).
-- Download the "chicklet slicer" and "scroller" custom visualizations for Power BI. Those visualizations can be found [here]("https://app.powerbi.com/visuals/")
+- Make sure you go through the instructions provided to setup Power BI to be able to use R as a data source and R to create custom visualizations. Information on how to do so can be found [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/).
+- Download the "chicklet slicer" and "scroller" custom visualizations for Power BI. Those visualizations can be found [here]("https://app.powerbi.com/visuals/").
 - How to add a R Script as a data source to Power BI
   -  Create and test your script using a R IDE (I recommend R Studio)
   - Make sure that the data sources that you want to import are made into a dataframe in your R Script
@@ -36,4 +36,4 @@ I used trade balance files from the census.gov. Each report contained trade bala
   - Click the "Ok" button
 
 ### Considerations
-Many of the R features are in preview. I was told by personel at Microsoft in April 2016 that the all of the R features that are currently in Power BI should be in GA soon. I was also told that they will provide a iist of packages that will work on PowerBI.com.
+Many of the R features are in preview. I was told by personnel at Microsoft in April 2016 that the all of the R features that are currently in Power BI should be in GA soon. I was also told that they will provide a iist of packages that will work on PowerBI.com.
