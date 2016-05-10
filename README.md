@@ -27,6 +27,7 @@ I used trade balance files from the census.gov. Each report contained trade bala
 #### Power BI
 - Make sure you go through the instructions provided to setup Power BI to be able to use R as a data source and R to create custom visualizations. Information on how to do so can be found [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/).
 - Download the "chicklet slicer" and "scroller" custom visualizations for Power BI. Those visualizations can be found at [here](https://app.powerbi.com/visuals/).
+- For information on how to import custom visuals from the Power BI visual gallery go [here](https://app.powerbi.com/visuals/info#use).
 
 #### Dashboard Explanation
 - The dashboard gives a snap shot of what's going on in a given year with the trade balance.
