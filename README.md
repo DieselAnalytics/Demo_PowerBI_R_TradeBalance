@@ -1,4 +1,4 @@
-# Power BI and R Demo (Using R and Power BI to Analyze the Trade Balance at the Country Level)
+# Power BI and R Demo (Using R and Power BI to Analyze the United States Trade Balance with Other Countries)
 
 ## Abstract
 Power BI is a self-service business intelligence tool that is gaining popularity. Microsoft added the ability to use R scripts as a data source and the ability to use R scripts to create custom visualizations in late 2015. In this repo I have an example of using R in Power BI both as a data source and as a way to create a custom visualization.
