@@ -44,3 +44,8 @@ I used trade balance files from the census.gov. Each report contained trade bala
 
 ## Considerations
 Many of the R features in Power BI are in preview and some of the features do not work on PowerBI.com. I was told by personnel at Microsoft in April 2016 at the Data Insight Summit that all of the R features that are currently in Power BI should be in GA soon. I was also told that they will provide a iist of packages that will work on PowerBI.com.
+
+## Closing Remarks
+This is the start of a project that I plan on improving. The subject of this project originated from one of the 2016 Republican debates in which the trade deficit was mentioned. I wondered what the true situation was, how the situation was trending over time, and what countries had the biggest impacts. So to answer my questions I started this project and I want to share my findings and my work with the community. 
+
+I am "apolitical". I have no affinity to none of the current political parties in the United States but I still follow politics to stay abrisk. Some of the topics that are debated by politicians interest me and this is one of them.
