@@ -36,10 +36,10 @@ I used trade balance files from the census.gov. Each report contained trade bala
 - "The "Countries with the Biggest Yearly Changes" chart shows the top 5 countries that had the 5 biggest absolute change from the previous year
 - The "scroller" on the bottom of the screen displays a list of the countries in alphabetical order with their US trade balance for the time period selected.
 - The boxplot chart shows a boxplot of trade balances by trade status category. Because of the big variance of trade balances I used the log10 of the absolute trade balance value (what a mouthful!!! Lol). So if country A has a trade balance of 100 and country B has a trade balance of -100 both of their converted values would be 2. Here is additional information about the boxplot:
-  - Bad = The country has no imports or exports, the ratio exports/imports is less than 0.9, or the country has no exports but has imports
-  - Ok = The country's exports/imports ratio is between 0.9 and 1.1
-  - Good =  The country has exports but no imports or the country's exports/imports ratio is between 1.1 and 2
-  - Great = The country's exports/imports ratio is greater then 2
+  - **Bad** = The country has no imports or exports, the ratio exports/imports is less than 0.9, or the country has no exports but has imports
+  - **Ok** = The country's exports/imports ratio is between 0.9 and 1.1
+  - **Good** =  The country has exports but no imports or the country's exports/imports ratio is between 1.1 and 2
+  - **Great** = The country's exports/imports ratio is greater then 2
   - The contribution of the trade balance for each category is shown on top of the boxplot for that category.
 
 ## Considerations
@@ -48,4 +48,4 @@ Many of the R features in Power BI are in preview and some of the features do no
 ## Closing Remarks
 This is the start of a project that I plan on improving. The subject of this project originated from one of the 2016 Republican debates in which the trade deficit was mentioned. I wondered what the true situation was, how the situation was trending over time, and what countries had the biggest impacts. So to answer my questions I started this project and I want to share my findings and my work with the community. 
 
-I am "apolitical". I have no affinity to none of the current political parties in the United States but I still follow politics to stay abrisk. Some of the topics that are debated by politicians interest me and this is one of them.
+I am apolitical. I have no affinity to none of the current political parties in the United States but I still follow politics to stay abrisk. Some of the topics that are debated by politicians interest me and this is one of them.
