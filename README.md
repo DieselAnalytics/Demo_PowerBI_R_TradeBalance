@@ -30,9 +30,10 @@ I used trade balance files from the census.gov. Each report contained trade bala
 - For information on how to import custom visuals from the Power BI visual gallery go [here](https://app.powerbi.com/visuals/info#use).
 
 ### Data Transformations
-- I choose to use R to do the data transformations instead of Power Query because of the level of unstructuredness in the data. I found it much easier to do it in R versus Power Query.
+- I chose to use R to do the data transformations instead of Power Query because of the level of unstructuredness in the data. I found it much easier to do it in R versus Power Query.
 - I used a regular expression to replace 1 or many white spaces with a "|" to delimit the columns that contained the trade balance, exports, and imports data. I used the str_split coupled with the unlist function to parse the trade balance, exports, and imports columns.
 - The files came in one of two formats. One of the formats had the trade balance, exports, and imports information in separate rows. After the trade balance, exports, and imports information was combined into one data set I used the spread verb from the tidyr package to unpivot that data.
+
 #### Dashboard Explanation
 - The dashboard gives a snap shot of what's going on in a given year with the trade balance.
 - The dashboard's title is dynamic and the trade balance value and the number of countries included changes based on the the time period selected.
