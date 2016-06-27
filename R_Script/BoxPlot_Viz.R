@@ -1,5 +1,4 @@
-library(dplyr)
-library(ggplot2)
+library(dplyr); library(ggplot2)
 
 GetRangeKey <- function(x){
   ifelse(x<= -90000000000,1,
