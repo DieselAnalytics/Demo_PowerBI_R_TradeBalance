@@ -1,8 +1,5 @@
 library(dplyr); library(stringr); library(tidyr); library(lubridate)
 
-#Sets the working directory
-setwd("D:/OneDrive - Diesel Analytics/Talks/SQLSaturday_WhyRYouNotUsingRInPowerBI")
-
 #Function used to transform the "Type A" files
 Transformation.Type.A <- function(file.name){  
 
