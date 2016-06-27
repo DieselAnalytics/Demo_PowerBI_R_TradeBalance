@@ -21,14 +21,18 @@ I used trade balance files from the census.gov. Each report contained trade bala
 ## Extra information
 
 #### R
-- Make sure you have stringr, dplyr, ggplot2, lubridate, and tidyr packages loaded in your environment
-- Make sure you have a nice IDE to play with the R script if you want to test it for yourself. I recommend you use R Studio.
+- Make sure you have stringr, dplyr, ggplot2, lubridate, and tidyr packages loaded in your environment. All of the packages are on CRAN so they can be installed using the "install.packages" command.
+- Make sure you have a nice IDE to play with the R scripts if you want to test them for yourself. I recommend you use R Studio.
 
 #### Power BI
 - Make sure you go through the instructions provided to setup Power BI to be able to use R as a data source and R to create custom visualizations. Information on how to do so can be found [here](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-r-visuals/).
 - Download the "chicklet slicer" and "scroller" custom visualizations for Power BI. Those visualizations can be found [here](https://app.powerbi.com/visuals/).
 - For information on how to import custom visuals from the Power BI visual gallery go [here](https://app.powerbi.com/visuals/info#use).
 
+### Data Transformations
+- I choose to use R to do the data transformations instead of Power Query because of the level of unstructuredness in the data. I found it much easier to do it in R versus Power Query.
+- I used a regular expression to replace 1 or many white spaces with a "|" to delimit the columns that contained the trade balance, exports, and imports data. I used the str_split coupled with the unlist function to parse the trade balance, exports, and imports columns.
+- The files came in one of two formats. One of the formats had the trade balance, exports, and imports information in separate rows. After the trade balance, exports, and imports information was combined into one data set I used the spread verb from the tidyr package to unpivot that data.
 #### Dashboard Explanation
 - The dashboard gives a snap shot of what's going on in a given year with the trade balance.
 - The dashboard's title is dynamic and the trade balance value and the number of countries included changes based on the the time period selected.
