@@ -9,7 +9,7 @@ I used yearly trade balance data by country that was obtained from census.gov to
 I also created a custom boxplot visualization using a R script that used the ggplot2 and dplyr packages. The boxplot visualization that I created using R was more advanced then what I could have done using the custom Power BI boxplot. The Power BI's version was not design to accomodate the additional layers and annotations that I added to the boxplot chart I created using R. R's ggplot2 package makes it much easier to add things like extra layers and annotations.
 
 ##### R Script
-I included the R files that contains the R script that was used to create the data source and the R script that was used to create the boxplot visualization. I wrote the scripts in R Studio. When I got the scripts functional I copied and pasted them into Power BI Desktop. The name of the file used to import the data into Power BI is "DataMungingScript.R" and the name of the file used to create the boxplot visualization is "Boxplot.R".
+I included the R files that contains the R script that was used to create the data source and the R script that was used to create the boxplot visualization and the violin - boxplot combo visualization. I wrote the scripts in R Studio. When I got the scripts functional I copied and pasted them into Power BI Desktop. The name of the file used to import the data into Power BI is "DataMungingScript.R" and the name of the files used to create the visualizations are "VizExample_BoxPlot.R" and VizExample_Violin_BoxPlot.R.
 
 ##### Power BI File
 I included a copy of the *.pbix file that contains the visualization. The name of the *.pbix file is "Demo_TradeBalance.pbix". It includes the Power Query scripts, DAX code, embeded R Scripts, and visualizations. 
