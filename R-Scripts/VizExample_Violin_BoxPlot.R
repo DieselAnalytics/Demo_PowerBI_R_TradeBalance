@@ -1,3 +1,7 @@
+# Instructions
+# 1. Create a folder named "Data" in your working directory
+# 2. Copy and Paste the files from the "Data" folder in this repository
+
 library(ggplot2)
 library(readr)
 suppressPackageStartupMessages(library(dplyr))
